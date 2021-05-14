@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".UploadProcess">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/upload1"
+        android:text="Choose File"
+        android:background="@drawable/bg5"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:id="@+id/fileName"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="80dp"
+        android:background="@drawable/bg5"
+        android:textSize="17sp"
+        android:layout_marginLeft="25dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/progressBar"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/finalupload"
+        android:layout_marginBottom="10dp"
+        android:text="upload"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:background="@drawable/bg2"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/done"
+        android:layout_marginBottom="10dp"
+        android:text="Done"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:background="@drawable/bg2"
+        />
+</LinearLayout>

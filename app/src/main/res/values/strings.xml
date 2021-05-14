@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VendorApp</string>
+    <string name="my_text"><u> Create account</u></string>
+    <string name="title_activity_vendor">VendorActivity</string>
+    <string name="tab_text_1">Menu</string>
+    <string name="tab_text_2">Order</string>
+    <string name="tab_text_3">Pay-In</string>
+    <string name="tab_text_4">Profile</string>
+</resources>
